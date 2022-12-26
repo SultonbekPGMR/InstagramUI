@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/fragment_container"
+    android:background="#FAFAFA"
+    tools:context=".FirstFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:paddingStart="5dp"
+            android:src="@drawable/camera" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:src="@drawable/instagram_logo" />
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:paddingStart="7dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="-65dp"
+                android:src="@drawable/igtv" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="-27dp"
+                android:padding="6dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/send" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9E9E9E"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:scrollbarSize="0dp"
+        android:layout_weight="0.3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/relative4"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageLabe4"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:shapeAppearanceOverlay="@style/circularImageView"
+                    app:srcCompat="@drawable/khabib"
+                    android:scaleType="centerCrop"
+                    app:strokeColor="#FF005D"
+                    android:padding="1dp"
+                    app:strokeWidth="2dp"/>
+
+
+                <TextView
+                    android:id="@+id/textLabe4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageLabe4"
+                    android:layout_centerInParent="true"
+                    android:singleLine="true"
+                    android:text="Khabib"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relative35"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageLabe35"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:shapeAppearanceOverlay="@style/circularImageView"
+                    app:srcCompat="@drawable/islam"
+                    android:scaleType="centerCrop"
+                    app:strokeColor="#CA00FF"
+                    android:padding="1dp"
+                    app:strokeWidth="2dp"/>
+
+
+                <TextView
+                    android:id="@+id/textLabe35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageLabe35"
+                    android:layout_centerInParent="true"
+                    android:singleLine="true"
+                    android:text="Islam"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative25"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageLabe25"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:shapeAppearanceOverlay="@style/circularImageView"
+                    app:srcCompat="@drawable/volkanovskiy"
+                    android:scaleType="centerCrop"
+                    app:strokeColor="#CA00FF"
+                    android:padding="1dp"
+                    app:strokeWidth="2dp"/>
+
+
+                <TextView
+                    android:id="@+id/textLabe25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageLabe25"
+                    android:layout_centerInParent="true"
+                    android:singleLine="true"
+                    android:text="Alexandr"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relative7"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageLabel7"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:shapeAppearanceOverlay="@style/circularImageView"
+                    app:srcCompat="@drawable/khabib"
+                    android:scaleType="centerCrop"
+                    app:strokeColor="#FF005D"
+                    android:padding="1dp"
+                    app:strokeWidth="2dp"/>
+
+
+                <TextView
+                    android:id="@+id/textLabel7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageLabel7"
+                    android:layout_centerInParent="true"
+                    android:singleLine="true"
+                    android:text="Khabib"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relative39"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageLabe39"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:shapeAppearanceOverlay="@style/circularImageView"
+                    app:srcCompat="@drawable/islam"
+                    android:scaleType="centerCrop"
+                    app:strokeColor="#CA00FF"
+                    android:padding="1dp"
+                    app:strokeWidth="2dp"/>
+
+
+                <TextView
+                    android:id="@+id/textLabe39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageLabe39"
+                    android:layout_centerInParent="true"
+                    android:singleLine="true"
+                    android:text="islam"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative21"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageLabe21"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:shapeAppearanceOverlay="@style/circularImageView"
+                    app:srcCompat="@drawable/volkanovskiy"
+                    android:scaleType="centerCrop"
+                    app:strokeColor="#CA00FF"
+                    android:padding="1dp"
+                    app:strokeWidth="2dp"/>
+
+
+                <TextView
+                    android:id="@+id/textLabe21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageLabe21"
+                    android:layout_centerInParent="true"
+                    android:singleLine="true"
+                    android:text="Alexandr"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#D6D3D3"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="45dp"
+            android:id="@+id/khabib"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="1dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/circularImageView"
+            app:srcCompat="@drawable/khabib" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/khabib"
+            android:singleLine="true"
+            android:text="Khabib"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/more" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/habibins"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/circularImageView"
+            app:srcCompat="@drawable/islam" />
+
+        <TextView
+            android:id="@+id/TV_liner_6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="Liked by Islam Makhachev"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/TV_liner_6_2"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="joshua_l The game in Japan was amazing and I want to share some photos"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/like" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:src="@drawable/igtv" />
+        <ImageView
+            android:layout_width="40dp"
+            android:padding="1dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/send" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:padding="3dp"
+                android:src="@drawable/bookmark" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#D6D3D3"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageView
+            android:id="@+id/btn_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/home__1_"
+            android:layout_weight="1">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/search"
+            android:layout_weight="1">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/add"
+            android:layout_weight="1">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="13dp"
+            android:src="@drawable/like"
+            android:layout_weight="1">
+
+        </ImageView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/btn_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/circularImageView"
+            app:srcCompat="@drawable/khabib" />
+
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
